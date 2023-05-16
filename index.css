@@ -1,0 +1,12 @@
+h1, h2{
+    text-align: center;
+    font-size:larger;
+    color: darkmagenta;
+}
+
+p1{
+    color: rgb(83, 0, 57);
+    text-decoration: overline;
+    font-size: 19px;
+}
+
