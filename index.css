@@ -1,12 +1,30 @@
 h1, h2{
     text-align: center;
-    font-size:larger;
-    color: darkmagenta;
+    font-size: 10mm;
+    color: rgb(136, 150, 147);
+    background-color: rgb(206, 43, 84);
+}
+body{
+    background-color: rgb(233, 206, 208);
+}
+img{
+    width: 600px;
+
 }
 
 p1{
-    color: rgb(83, 0, 57);
-    text-decoration: overline;
-    font-size: 19px;
+    background-color: rgba(243, 8, 79, 0.76);
+    text-decoration-skip: 2px;
+    text-align: center;
+    font-size: 30px;
+    
 }
+
+p{
+    border-left: 2px;
+    width: auto;
+    table-layout: unset;
+    font-size: 30px;
+}
+
 
