@@ -4,9 +4,9 @@
 
 var valorDigitadoH = parseInt(prompt('Informe a quantidade de horas!'));
 var valorDigitadoM = parseInt(prompt('Informe a quantidade de minutos!'));
-var horaMinuto = valorDigitadoH / 60
+var horaMinuto = 60 * valorDigitadoH;
 var minutos = horaMinuto + valorDigitadoM;
 
 
 
-document.write(valorDigitadoH+ ' valor horas e ' +valorDigitadoM+ ' valor em minutos equivale a ' +minutos+ ' minutos')
+document.write('O valor de '+valorDigitadoH+ ' horas e ' +valorDigitadoM+ ' minutos equivale a total de ' +minutos+ ' minutos!')
